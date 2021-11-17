@@ -1,2 +1,109 @@
-@import "mixins"
+@import "mixins";
+* {
+  font-family: "Arimo", sans-serif;
+}
 
+header {
+  background-color: #f4f9e2;
+  margin-left: 5%;
+  position: relative;
+  z-index: 3;
+  margin-bottom: 2%;
+  & section {
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    & .header-box-left {
+      width: 65%;
+      margin-top: 180px;
+      & h1 {
+        font-size: 24px;
+        color: #62d0df;
+        margin-bottom: 30px;
+      }
+      & h2 {
+        font-size: 48px;
+        line-height: 53px;
+        color: #22356f;
+        margin-bottom: 50px;
+      }
+      & p {
+        font-size: 24px;
+        line-height: 42px;
+      }
+      & div {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 30px;
+        & .button-1 {
+          background: #f9b640;
+          color: #ffffff;
+          font-size: 16px;
+          text-decoration: none;
+        }
+        & .button-2 {
+          color: #f9b640;
+          font-size: 16px;
+          text-decoration: none;
+        }
+      }
+      & div a {
+        padding: 10px 30px;
+      }
+    }
+    & .header-box-right {
+      background-image: url("../images/1.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+        width: 50%;
+        height: 700px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: -1;
+    }
+  }
+  & nav {
+     
+    & ul {
+        margin: 0px;
+        padding-top: 1%;
+        
+      .emblem a {
+        font-size: 24px;
+        color: #62d0df;
+        text-decoration: none;
+      }
+      & div {
+       display: flex;
+        & li {
+            margin-right: 20px;
+          & a:hover {
+            padding-bottom: 8px;
+            border-bottom: 1px solid#000000;
+          }
+          & a {
+            font-size: 16px;
+            color: #22356f;
+            text-decoration: none;
+          }
+        }
+      }
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+       & .contact-us a {
+        background: #62d0df;
+        border-radius: 50px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        padding: 15px 30px;
+        text-decoration: none;
+      }
+    }
+  }
+}
