@@ -197,7 +197,7 @@ main .second-box .about-us p {
   margin-top: 15%;
 }
 
-main .second-box .four-box h2 {
+main .second-box .second-four-box h2 {
   font-size: 16px;
   text-align: center;
   color: #22356f;
@@ -205,7 +205,7 @@ main .second-box .four-box h2 {
   margin-bottom: 1%;
 }
 
-main .second-box .four-box .four-box-img {
+main .second-box .second-four-box .four-box-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,48 +213,179 @@ main .second-box .four-box .four-box-img {
       -ms-flex-pack: center;
           justify-content: center;
   height: 360px;
+  margin-bottom: 4%;
 }
 
-main .second-box .four-box .four-box-img .pink {
+main .second-box .second-four-box .four-box-img .pink {
   background-color: #ffe2de;
 }
 
-main .second-box .four-box .four-box-img .green {
+main .second-box .second-four-box .four-box-img .green {
   background-color: #c4e76e;
 }
 
-main .second-box .four-box .four-box-img .cruar {
+main .second-box .second-four-box .four-box-img .cruar {
   background-color: #62d0df;
 }
 
-main .second-box .four-box .four-box-img .blue {
+main .second-box .second-four-box .four-box-img .blue {
   background-color: #0052c1;
 }
 
-main .second-box .four-box .four-box-img div {
+main .second-box .second-four-box .four-box-img div {
   padding: 4% 4%;
   width: 25%;
 }
 
-main .second-box .four-box .four-box-img div hr {
+main .second-box .second-four-box .four-box-img div hr {
   margin-bottom: 50px;
   background-color: #ffffff;
   height: 1px;
   border: none;
 }
 
-main .second-box .four-box .four-box-img div div {
+main .second-box .second-four-box .four-box-img div div {
   display: inline;
 }
 
-main .second-box .four-box .four-box-img div div img {
+main .second-box .second-four-box .four-box-img div div img {
   margin-bottom: 4%;
 }
 
-main .second-box .four-box .four-box-img div div p {
+main .second-box .second-four-box .four-box-img div div p {
   font-size: 32px;
   line-height: 34px;
   color: #ffffff;
+  display: inline-table;
+}
+
+main .thre-box-own {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .thre-box-own .violet {
+  background-color: #22356f;
+}
+
+main .thre-box-own .blue {
+  background-color: #0052c1;
+}
+
+main .thre-box-own .photo {
+  background-image: url(../images/3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .thre-box-own .cruan {
+  background-color: #62d0df;
+}
+
+main .thre-box-own .grau {
+  background-color: #dee1ff;
+}
+
+main .thre-box-own .purple {
+  background-color: #8f00ff;
+}
+
+main .thre-box-own div {
+  width: 33.2%;
+  padding: 4% 4%;
+  height: 480px;
+}
+
+main .thre-box-own div hr {
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  height: 1px;
+  border: none;
+}
+
+main .thre-box-own div div {
   display: inline;
+}
+
+main .thre-box-own div div img {
+  margin-bottom: 1%;
+}
+
+main .thre-box-own div div p {
+  font-size: 32px;
+  line-height: 34px;
+  color: #ffffff;
+  display: inline-table;
+}
+
+main .four-box-own {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .four-box-own div {
+  width: 33.2%;
+  padding: 4% 4%;
+}
+
+main .four-box-own div h2 {
+  font-size: 28px;
+  color: #22356f;
+  margin-bottom: 5%;
+}
+
+main .four-box-own div p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #22356f80;
+  opacity: 0.7;
+}
+
+main .five-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .five-box .left-box {
+  background-image: url("../images/4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 800px;
+}
+
+main .five-box .right-box {
+  padding-left: 100px;
+}
+
+main .five-box .right-box h2 {
+  font-size: 16px;
+  color: #22356F;
+  margin: 100px  630px 225px 0px;
+}
+
+main .five-box .right-box p {
+  font-size: 36px;
+  line-height: 53px;
+  color: #22356F;
+}
+
+main .five-box .right-box p span {
+  color: #6CD3E1;
+}
+
+main .five-box .right-box h3 {
+  font-size: 16px;
+  color: #FAB63E;
+  margin: 150px 330px 40px 0px;
 }
 /*# sourceMappingURL=style.css.map */

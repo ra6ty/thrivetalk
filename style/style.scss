@@ -153,7 +153,7 @@ main {
         margin-top: 15%;
       }
     }
-    & .four-box {
+    & .second-four-box {
       & h2 {
         font-size: 16px;
         text-align: center;
@@ -165,6 +165,7 @@ main {
         display: flex;
         justify-content: center;
         height: 360px;
+        margin-bottom: 4%;
         & .pink {
           background-color: #ffe2de;
         }
@@ -195,10 +196,111 @@ main {
               font-size: 32px;
               line-height: 34px;
               color: #ffffff;
-              display: inline;
+              display: inline-table;
             }
           }
         }
+      }
+    }
+  }
+  & .thre-box-own {
+    display: flex;
+    flex-wrap: wrap;
+    & .violet {
+      background-color: #22356f;
+    }
+    & .blue {
+      background-color: #0052c1;
+    }
+    & .photo {
+      background-image: url(../images/3.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    & .cruan {
+      background-color: #62d0df;
+    }
+    & .grau {
+      background-color: #dee1ff;
+    }
+    & .purple {
+      background-color: #8f00ff;
+    }
+
+    & div {
+      width: 33.2%;
+      padding: 4% 4%;
+      height: 480px;
+      & hr {
+        margin-bottom: 50px;
+        background-color: #ffffff;
+        height: 1px;
+        border: none;
+      }
+      & div {
+        display: inline;
+        & img {
+          margin-bottom: 1%;
+        }
+        & p {
+          font-size: 32px;
+          line-height: 34px;
+          color: #ffffff;
+          display: inline-table;
+        }
+      }
+    }
+  }
+  & .four-box-own {
+    display: flex;
+    flex-wrap: wrap;
+    & div {
+      width: 33.2%;
+      padding: 4% 4%;
+
+      & h2 {
+        font-size: 28px;
+        color: #22356f;
+        margin-bottom: 5%;
+      }
+      & p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #22356f80;
+        opacity: 0.7;
+      }
+    }
+  }
+  & .five-box {
+    display: flex;
+    & .left-box {
+      background-image: url("../images/4.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 30%;
+      height: 800px;
+    }
+    & .right-box {
+      padding-left: 100px;
+      & h2 {
+        font-size: 16px;
+        color: #22356F;
+        margin: 100px  630px 225px 0px;
+      }
+      & p {
+        font-size: 36px;
+        line-height: 53px;
+        color: #22356F;
+        & span {
+          color: #6CD3E1;
+        }
+      }
+      & h3 {
+        font-size: 16px;
+        color: #FAB63E;
+        margin: 150px 330px 40px 0px;
       }
     }
   }
