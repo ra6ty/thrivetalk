@@ -134,4 +134,127 @@ header nav ul .contact-us a {
   padding: 15px 30px;
   text-decoration: none;
 }
+
+main {
+  width: 100%;
+}
+
+main .first-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .first-box .text-1 {
+  background-color: #62d0df;
+  padding: 8% 15%;
+  width: 65%;
+  color: #ffffff;
+}
+
+main .first-box .text-1 h2 {
+  font-size: 36px;
+  padding-bottom: 70px;
+}
+
+main .first-box .text-1 p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+main .first-box .text-1 p span {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+main .first-box .img {
+  background-image: url("../images/2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+}
+
+main .second-box .about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .second-box .about-us h2 {
+  font-size: 16px;
+  color: #22356f;
+  margin: 15%;
+}
+
+main .second-box .about-us p {
+  font-size: 24px;
+  line-height: 34px;
+  color: #22356f;
+  margin-top: 15%;
+}
+
+main .second-box .four-box h2 {
+  font-size: 16px;
+  text-align: center;
+  color: #22356f;
+  opacity: 0.5;
+  margin-bottom: 1%;
+}
+
+main .second-box .four-box .four-box-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 360px;
+}
+
+main .second-box .four-box .four-box-img .pink {
+  background-color: #ffe2de;
+}
+
+main .second-box .four-box .four-box-img .green {
+  background-color: #c4e76e;
+}
+
+main .second-box .four-box .four-box-img .cruar {
+  background-color: #62d0df;
+}
+
+main .second-box .four-box .four-box-img .blue {
+  background-color: #0052c1;
+}
+
+main .second-box .four-box .four-box-img div {
+  padding: 4% 4%;
+  width: 25%;
+}
+
+main .second-box .four-box .four-box-img div hr {
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  height: 1px;
+  border: none;
+}
+
+main .second-box .four-box .four-box-img div div {
+  display: inline;
+}
+
+main .second-box .four-box .four-box-img div div img {
+  margin-bottom: 4%;
+}
+
+main .second-box .four-box .four-box-img div div p {
+  font-size: 32px;
+  line-height: 34px;
+  color: #ffffff;
+  display: inline;
+}
 /*# sourceMappingURL=style.css.map */
